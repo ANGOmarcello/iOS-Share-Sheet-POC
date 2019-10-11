@@ -26,6 +26,7 @@
 		23E2CDCD2350ACD900C86741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E2CDD32350B2E800C86741 /* security-overview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "security-overview.pdf"; sourceTree = "<group>"; };
 		23E2CDD52350C71600C86741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		23E2CDD72350C7FE00C86741 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				23E2CDCA2350ACD900C86741 /* LaunchScreen.storyboard */,
 				23E2CDCD2350ACD900C86741 /* Info.plist */,
 				23E2CDD32350B2E800C86741 /* security-overview.pdf */,
+				23E2CDD72350C7FE00C86741 /* screenshot.png */,
 			);
 			path = "Share-POC";
 			sourceTree = "<group>";
