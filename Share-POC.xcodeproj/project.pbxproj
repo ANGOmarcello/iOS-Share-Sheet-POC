@@ -13,7 +13,7 @@
 		23E2CDC72350ACD800C86741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDC52350ACD800C86741 /* Main.storyboard */; };
 		23E2CDCC2350ACD900C86741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDCA2350ACD900C86741 /* LaunchScreen.storyboard */; };
 		23E2CDD42350B2E800C86741 /* security-overview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDD32350B2E800C86741 /* security-overview.pdf */; };
-		23E2CDD62350C71600C86741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDD52350C71600C86741 /* Assets.xcassets */; };
+		23E2CDDA2350C9A900C86741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDD92350C9A900C86741 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		23E2CDCB2350ACD900C86741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23E2CDCD2350ACD900C86741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E2CDD32350B2E800C86741 /* security-overview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "security-overview.pdf"; sourceTree = "<group>"; };
-		23E2CDD52350C71600C86741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		23E2CDD72350C7FE00C86741 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		23E2CDD92350C9A900C86741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				23E2CDC12350ACD800C86741 /* SceneDelegate.swift */,
 				23E2CDC32350ACD800C86741 /* ViewController.swift */,
 				23E2CDC52350ACD800C86741 /* Main.storyboard */,
-				23E2CDD52350C71600C86741 /* Assets.xcassets */,
+				23E2CDD92350C9A900C86741 /* Assets.xcassets */,
 				23E2CDCA2350ACD900C86741 /* LaunchScreen.storyboard */,
 				23E2CDCD2350ACD900C86741 /* Info.plist */,
 				23E2CDD32350B2E800C86741 /* security-overview.pdf */,
@@ -133,7 +133,7 @@
 				23E2CDD42350B2E800C86741 /* security-overview.pdf in Resources */,
 				23E2CDCC2350ACD900C86741 /* LaunchScreen.storyboard in Resources */,
 				23E2CDC72350ACD800C86741 /* Main.storyboard in Resources */,
-				23E2CDD62350C71600C86741 /* Assets.xcassets in Resources */,
+				23E2CDDA2350C9A900C86741 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
