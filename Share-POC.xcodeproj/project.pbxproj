@@ -11,8 +11,9 @@
 		23E2CDC22350ACD800C86741 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2CDC12350ACD800C86741 /* SceneDelegate.swift */; };
 		23E2CDC42350ACD800C86741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2CDC32350ACD800C86741 /* ViewController.swift */; };
 		23E2CDC72350ACD800C86741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDC52350ACD800C86741 /* Main.storyboard */; };
-		23E2CDC92350ACD900C86741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDC82350ACD900C86741 /* Assets.xcassets */; };
 		23E2CDCC2350ACD900C86741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDCA2350ACD900C86741 /* LaunchScreen.storyboard */; };
+		23E2CDD42350B2E800C86741 /* security-overview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDD32350B2E800C86741 /* security-overview.pdf */; };
+		23E2CDD62350C71600C86741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E2CDD52350C71600C86741 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		23E2CDC12350ACD800C86741 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		23E2CDC32350ACD800C86741 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23E2CDC62350ACD800C86741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		23E2CDC82350ACD900C86741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23E2CDCB2350ACD900C86741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23E2CDCD2350ACD900C86741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E2CDD32350B2E800C86741 /* security-overview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "security-overview.pdf"; sourceTree = "<group>"; };
+		23E2CDD52350C71600C86741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 				23E2CDC12350ACD800C86741 /* SceneDelegate.swift */,
 				23E2CDC32350ACD800C86741 /* ViewController.swift */,
 				23E2CDC52350ACD800C86741 /* Main.storyboard */,
-				23E2CDC82350ACD900C86741 /* Assets.xcassets */,
+				23E2CDD52350C71600C86741 /* Assets.xcassets */,
 				23E2CDCA2350ACD900C86741 /* LaunchScreen.storyboard */,
 				23E2CDCD2350ACD900C86741 /* Info.plist */,
+				23E2CDD32350B2E800C86741 /* security-overview.pdf */,
 			);
 			path = "Share-POC";
 			sourceTree = "<group>";
@@ -125,9 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E2CDD42350B2E800C86741 /* security-overview.pdf in Resources */,
 				23E2CDCC2350ACD900C86741 /* LaunchScreen.storyboard in Resources */,
-				23E2CDC92350ACD900C86741 /* Assets.xcassets in Resources */,
 				23E2CDC72350ACD800C86741 /* Main.storyboard in Resources */,
+				23E2CDD62350C71600C86741 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV4RMF773Y;
 				INFOPLIST_FILE = "Share-POC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV4RMF773Y;
 				INFOPLIST_FILE = "Share-POC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
