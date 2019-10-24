@@ -69,7 +69,10 @@ class ViewController: UIViewController {
         
         // Add our exclusion list.
         share.excludedActivityTypes = excludedSharingOptions
-            
+        
+        // iPad presentation.
+        share.popoverPresentationController?.sourceView = shareButton
+
         // Display the share sheet.
         present(share, animated: true)
     }
